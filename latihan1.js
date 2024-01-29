@@ -1,0 +1,1 @@
+alert("halo ini dari eksternal😊");
