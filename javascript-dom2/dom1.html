@@ -6,16 +6,22 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!-- membuat form untuk select link yang akan diberi -->
     
     <form action="">
         <select name="linksaya" id="linksaya" 
         onchange="linkaku()">
-            <option value="">Pilih Link</option>
+            <option value=""><strong>Pilih Link</strong></option>
             <option value="https://www.google.com/">Google</option>
             <option value="https://www.youtube.com/watch?v=NzKkDboXWsQ">Youtube</option>
             <option value="https://web.whatsapp.com/">Wa Web</option>
         </select>
     </form>
+<!-- 
+    membuat js untuk menjalankan fungsi linkaku dan membuat var TetiSimatupang untuk kemudian mengambil element
+    berdasarkan linksaya, dan hanya value nya. Kemuadian document.location.href untuk menyambungkan dengan link,
+     dan menjalankan link dari var TetiSimatupang -->
 
     <script type="text/javascript">
         function linkaku() {
@@ -33,7 +39,7 @@
 
 
 
-
+<!-- contoh js -->
 
 <!-- <script type="text/javascript"> 
     function linkSaya() {

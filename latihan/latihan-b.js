@@ -7,7 +7,7 @@ var menu = {
 };
 
 // Memilih menu
-var pesanan = prompt("Silakan pilih menu yang ingin dipesan:\n" + Object.keys(menu).join("\n"));
+var pesanan = prompt("Silahkan pilih menu yang ingin dipesan :\n" + Object.keys(menu).join("\n"))
 var jumlah = prompt("Masukkan jumlah " + pesanan + " yang ingin dipesan:");
 
 // Menghitung total biaya
@@ -18,3 +18,5 @@ if (menu.hasOwnProperty(pesanan)) {
 } else {
     alert("Maaf, menu tidak tersedia.");
 }
+
+// var pesanan = prompt("Silakan pilih menu yang ingin dipesan:\n" + Object.keys(menu).join("\n"));
